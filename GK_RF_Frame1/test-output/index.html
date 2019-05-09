@@ -1,0 +1,1021 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 9 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Failed_suite_[Suite]">
+              <span class="suite-name border-failed">Failed suite [Suite]</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Failed_suite_[Suite]">
+                    <span>testng-failed.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Failed_suite_[Suite]">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Failed_suite_[Suite]">
+                    <span>3 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Failed_suite_[Suite]">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Failed_suite_[Suite]">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Failed_suite_[Suite]">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Failed_suite_[Suite]">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods, 9 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Failed_suite_[Suite]" class="hide-methods failed suite-Failed_suite_[Suite]"> (hide)</a> <!-- hide-methods failed suite-Failed_suite_[Suite] -->
+                      <a href="#" panel-name="suite-Failed_suite_[Suite]" class="show-methods failed suite-Failed_suite_[Suite]"> (show)</a> <!-- show-methods failed suite-Failed_suite_[Suite] -->
+                    </span>
+                    <div class="method-list-content failed suite-Failed_suite_[Suite]">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Failed_suite_[Suite]" title="script.Claim_Approve_INOPS_Test" hash-for-method="Claim_Approve">Claim_Approve</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Failed_suite_[Suite]" title="script.Claim_Approve_INOPS_CHK_Test" hash-for-method="Claim_Approve_INOPSCHK">Claim_Approve_INOPSCHK</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Failed_suite_[Suite]" title="script.Settelement_insurance_Checker_Approve_Test" hash-for-method="Insurance_Checker_Approve">Insurance_Checker_Approve</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Failed_suite_[Suite]" title="script.Settlement_Insurance_Maker_Approve_Test" hash-for-method="Insurance_Maker_Approve">Insurance_Maker_Approve</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Failed_suite_[Suite]" title="script.Settelement_Received_From_Insurer_Test" hash-for-method="Received_From_Insurer">Received_From_Insurer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Failed_suite_[Suite]" title="script.Settlement_Sent_To_Operation_Executive_Test" hash-for-method="Sent_To_Insurer">Sent_To_Insurer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Failed_suite_[Suite]" title="script.Settlement_Sent_To_Insurer_Test" hash-for-method="Sent_To_insurer">Sent_To_insurer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Failed_suite_[Suite]" title="script.Settlement_OPEX_SettledtoNominee_Test" hash-for-method="Settled_To_Nominee">Settled_To_Nominee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Failed_suite_[Suite]" title="script.Settlement_Settled_To_Nominee_PendingAMConfirmation_Test" hash-for-method="Settled_to_Nominee_pending_OM_Conf">Settled_to_Nominee_pending_OM_Conf</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Failed_suite_[Suite] -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Failed_suite_[Suite]" class="panel Failed_suite_[Suite]">
+          <div class="suite-Failed_suite_[Suite]-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">script.Settlement_Insurance_Maker_Approve_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Insurance_Maker_Approve">
+                  </a> <!-- Insurance_Maker_Approve -->
+                  <span class="method-name">Insurance_Maker_Approve</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: Send For Approval
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IXED-LAP0263&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-153-generic&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 5145, moz:profile: /tmp/rust_mozprofile.PHa4as..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 3.13.0-153-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 4acc0e0f-3dac-45a8-ae3b-4d5f96f1cae5
+*** Element info: {Using=link text, value=Send For Approval}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at page.ManageClaimPage.InsuranceApprove(ManageClaimPage.java:167)
+	at script.Settlement_Insurance_Maker_Approve_Test.Insurance_Maker_Approve(Settlement_Insurance_Maker_Approve_Test.java:49)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Failed_suite_[Suite]-class-failed -->
+          <div class="suite-Failed_suite_[Suite]-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">script.Settelement_insurance_Checker_Approve_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Insurance_Checker_Approve">
+                  </a> <!-- Insurance_Checker_Approve -->
+                  <span class="method-name">Insurance_Checker_Approve</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: Approve
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IXED-LAP0263&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-153-generic&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 5352, moz:profile: /tmp/rust_mozprofile.X1sntK..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 3.13.0-153-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 75a7244f-b25e-42d4-95aa-1491189656e3
+*** Element info: {Using=link text, value=Approve}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at page.ManageClaimPage.InsurancechkApprove(ManageClaimPage.java:186)
+	at script.Settelement_insurance_Checker_Approve_Test.Insurance_Checker_Approve(Settelement_insurance_Checker_Approve_Test.java:47)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Failed_suite_[Suite]-class-failed -->
+          <div class="suite-Failed_suite_[Suite]-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">script.Settlement_OPEX_SettledtoNominee_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Settled_To_Nominee">
+                  </a> <!-- Settled_To_Nominee -->
+                  <span class="method-name">Settled_To_Nominee</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: Settled To Nominee
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IXED-LAP0263&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-153-generic&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 6156, moz:profile: /tmp/rust_mozprofile.hWIW5k..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 3.13.0-153-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9823bdb5-b62f-4aac-bb9d-568e6ca7ce30
+*** Element info: {Using=link text, value=Settled To Nominee}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at page.ManageClaimPage.Settle_Nominee(ManageClaimPage.java:287)
+	at script.Settlement_OPEX_SettledtoNominee_Test.Settled_To_Nominee(Settlement_OPEX_SettledtoNominee_Test.java:41)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Failed_suite_[Suite]-class-failed -->
+          <div class="suite-Failed_suite_[Suite]-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">script.Claim_Approve_INOPS_CHK_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Claim_Approve_INOPSCHK">
+                  </a> <!-- Claim_Approve_INOPSCHK -->
+                  <span class="method-name">Claim_Approve_INOPSCHK</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: Approve
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IXED-LAP0263&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-153-generic&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 4943, moz:profile: /tmp/rust_mozprofile.pWTxYt..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 3.13.0-153-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: d179d4bf-4bbc-40cc-b318-54674de15de5
+*** Element info: {Using=link text, value=Approve}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at page.ManageClaimPage.InsuranceOPSApprove(ManageClaimPage.java:147)
+	at script.Claim_Approve_INOPS_CHK_Test.Claim_Approve_INOPSCHK(Claim_Approve_INOPS_CHK_Test.java:46)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Failed_suite_[Suite]-class-failed -->
+          <div class="suite-Failed_suite_[Suite]-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">script.Settlement_Settled_To_Nominee_PendingAMConfirmation_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Settled_to_Nominee_pending_OM_Conf">
+                  </a> <!-- Settled_to_Nominee_pending_OM_Conf -->
+                  <span class="method-name">Settled_to_Nominee_pending_OM_Conf</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: Approve
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IXED-LAP0263&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-153-generic&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 6354, moz:profile: /tmp/rust_mozprofile.JnAeHS..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 3.13.0-153-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 51d891e5-7314-44aa-8621-f54204a2457b
+*** Element info: {Using=link text, value=Approve}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at page.ManageClaimPage.Settle_NomineeOMConf(ManageClaimPage.java:316)
+	at script.Settlement_Settled_To_Nominee_PendingAMConfirmation_Test.Settled_to_Nominee_pending_OM_Conf(Settlement_Settled_To_Nominee_PendingAMConfirmation_Test.java:41)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Failed_suite_[Suite]-class-failed -->
+          <div class="suite-Failed_suite_[Suite]-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">script.Settlement_Sent_To_Insurer_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Sent_To_insurer">
+                  </a> <!-- Sent_To_insurer -->
+                  <span class="method-name">Sent_To_insurer</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: Sent To Insurer
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IXED-LAP0263&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-153-generic&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 5544, moz:profile: /tmp/rust_mozprofile.I6NKNR..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 3.13.0-153-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 1345453c-98ad-446f-91b2-8a0b7f7e5876
+*** Element info: {Using=link text, value=Sent To Insurer}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at page.ManageClaimPage.SenttoInsurer(ManageClaimPage.java:206)
+	at script.Settlement_Sent_To_Insurer_Test.Sent_To_insurer(Settlement_Sent_To_Insurer_Test.java:48)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Failed_suite_[Suite]-class-failed -->
+          <div class="suite-Failed_suite_[Suite]-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">script.Claim_Approve_INOPS_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Claim_Approve">
+                  </a> <!-- Claim_Approve -->
+                  <span class="method-name">Claim_Approve</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: Approve
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IXED-LAP0263&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-153-generic&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 4688, moz:profile: /tmp/rust_mozprofile.TkySrJ..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 3.13.0-153-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0972c592-d3c9-4283-93ac-bcedecc6a53f
+*** Element info: {Using=link text, value=Approve}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at page.ManageClaimPage.InsuranceOPSApprove(ManageClaimPage.java:147)
+	at script.Claim_Approve_INOPS_Test.Claim_Approve(Claim_Approve_INOPS_Test.java:46)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Failed_suite_[Suite]-class-failed -->
+          <div class="suite-Failed_suite_[Suite]-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">script.Settlement_Sent_To_Operation_Executive_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Sent_To_Insurer">
+                  </a> <!-- Sent_To_Insurer -->
+                  <span class="method-name">Sent_To_Insurer</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: Send To Operation Executive
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IXED-LAP0263&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-153-generic&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 5952, moz:profile: /tmp/rust_mozprofile.w2u2xc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 3.13.0-153-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f7950104-20c4-4350-ab3b-a8c489d5948e
+*** Element info: {Using=link text, value=Send To Operation Executive}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at page.ManageClaimPage.SenttoOPEX(ManageClaimPage.java:260)
+	at script.Settlement_Sent_To_Operation_Executive_Test.Sent_To_Insurer(Settlement_Sent_To_Operation_Executive_Test.java:47)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Failed_suite_[Suite]-class-failed -->
+          <div class="suite-Failed_suite_[Suite]-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">script.Settelement_Received_From_Insurer_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Received_From_Insurer">
+                  </a> <!-- Received_From_Insurer -->
+                  <span class="method-name">Received_From_Insurer</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: Received From Insurer
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IXED-LAP0263&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-153-generic&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 5752, moz:profile: /tmp/rust_mozprofile.NbjSdD..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 3.13.0-153-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 565e1ed9-68ce-4ca8-8553-ca5350bee32d
+*** Element info: {Using=link text, value=Received From Insurer}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at page.ManageClaimPage.ReceivedFromInsurer(ManageClaimPage.java:233)
+	at script.Settelement_Received_From_Insurer_Test.Received_From_Insurer(Settelement_Received_From_Insurer_Test.java:46)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Failed_suite_[Suite]-class-failed -->
+        </div> <!-- panel Failed_suite_[Suite] -->
+        <div panel-name="test-xml-Failed_suite_[Suite]" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/home/i-exceed.com/saran.muraleedharan/WORK/Framework/GK_RF_Frame2/test-output/testng-failed.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Failed suite [Suite]&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test(failed)&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;script.Settlement_Insurance_Maker_Approve_Test&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;openApp&quot;/&gt;
+          &lt;include name=&quot;Insurance_Maker_Approve&quot;/&gt;
+          &lt;include name=&quot;Logout&quot;/&gt;
+          &lt;include name=&quot;Login&quot;/&gt;
+          &lt;include name=&quot;closeApp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- script.Settlement_Insurance_Maker_Approve_Test --&gt;
+      &lt;class name=&quot;script.Settlement_OPEX_SettledtoNominee_Test&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Login&quot;/&gt;
+          &lt;include name=&quot;openApp&quot;/&gt;
+          &lt;include name=&quot;Settled_To_Nominee&quot;/&gt;
+          &lt;include name=&quot;closeApp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- script.Settlement_OPEX_SettledtoNominee_Test --&gt;
+      &lt;class name=&quot;script.Settlement_Sent_To_Insurer_Test&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;openApp&quot;/&gt;
+          &lt;include name=&quot;Logout&quot;/&gt;
+          &lt;include name=&quot;Sent_To_insurer&quot;/&gt;
+          &lt;include name=&quot;Login&quot;/&gt;
+          &lt;include name=&quot;closeApp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- script.Settlement_Sent_To_Insurer_Test --&gt;
+      &lt;class name=&quot;script.Settelement_insurance_Checker_Approve_Test&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;openApp&quot;/&gt;
+          &lt;include name=&quot;Insurance_Checker_Approve&quot;/&gt;
+          &lt;include name=&quot;Logout&quot;/&gt;
+          &lt;include name=&quot;Login&quot;/&gt;
+          &lt;include name=&quot;closeApp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- script.Settelement_insurance_Checker_Approve_Test --&gt;
+      &lt;class name=&quot;script.Claim_Approve_INOPS_Test&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Logout&quot;/&gt;
+          &lt;include name=&quot;openApp&quot;/&gt;
+          &lt;include name=&quot;Claim_Approve&quot;/&gt;
+          &lt;include name=&quot;Login&quot;/&gt;
+          &lt;include name=&quot;closeApp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- script.Claim_Approve_INOPS_Test --&gt;
+      &lt;class name=&quot;script.Claim_Approve_INOPS_CHK_Test&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Login&quot;/&gt;
+          &lt;include name=&quot;Logout&quot;/&gt;
+          &lt;include name=&quot;openApp&quot;/&gt;
+          &lt;include name=&quot;Claim_Approve_INOPSCHK&quot;/&gt;
+          &lt;include name=&quot;closeApp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- script.Claim_Approve_INOPS_CHK_Test --&gt;
+      &lt;class name=&quot;script.Settelement_Received_From_Insurer_Test&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;openApp&quot;/&gt;
+          &lt;include name=&quot;Login&quot;/&gt;
+          &lt;include name=&quot;Logout&quot;/&gt;
+          &lt;include name=&quot;Received_From_Insurer&quot;/&gt;
+          &lt;include name=&quot;closeApp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- script.Settelement_Received_From_Insurer_Test --&gt;
+      &lt;class name=&quot;script.Settlement_Sent_To_Operation_Executive_Test&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Login&quot;/&gt;
+          &lt;include name=&quot;openApp&quot;/&gt;
+          &lt;include name=&quot;Sent_To_Insurer&quot;/&gt;
+          &lt;include name=&quot;Logout&quot;/&gt;
+          &lt;include name=&quot;closeApp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- script.Settlement_Sent_To_Operation_Executive_Test --&gt;
+      &lt;class name=&quot;script.Settlement_Settled_To_Nominee_PendingAMConfirmation_Test&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;openApp&quot;/&gt;
+          &lt;include name=&quot;Login&quot;/&gt;
+          &lt;include name=&quot;Settled_to_Nominee_pending_OM_Conf&quot;/&gt;
+          &lt;include name=&quot;closeApp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- script.Settlement_Settled_To_Nominee_PendingAMConfirmation_Test --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test(failed) --&gt;
+&lt;/suite&gt; &lt;!-- Failed suite [Suite] --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Failed_suite_[Suite]" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Failed suite [Suite]</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test(failed) (9 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Failed_suite_[Suite]" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Failed suite [Suite]</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Claim_Management</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Claim_Approve</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Claim_Approve_INOPSCHK</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Settlement_Management</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Insurance_Checker_Approve</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Insurance_Maker_Approve</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Received_From_Insurer</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Sent_To_Insurer</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Sent_To_insurer</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Settled_To_Nominee</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Settled_to_Nominee_pending_OM_Conf</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Claim_Approve</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Claim_Approve_INOPSCHK</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Insurance_Checker_Approve</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Insurance_Maker_Approve</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Received_From_Insurer</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Sent_To_Insurer</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Sent_To_insurer</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Settled_To_Nominee</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Settled_to_Nominee_pending_OM_Conf</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Failed_suite_[Suite]" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Failed suite [Suite]</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Failed_suite_[Suite]');
+function tableData_Failed_suite_[Suite]() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Insurance_Maker_Approve')
+data.setCell(0, 2, 'script.Settlement_Insurance_Maker_Approve_Test')
+data.setCell(0, 3, 34074);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Insurance_Checker_Approve')
+data.setCell(1, 2, 'script.Settelement_insurance_Checker_Approve_Test')
+data.setCell(1, 3, 33587);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Sent_To_Insurer')
+data.setCell(2, 2, 'script.Settlement_Sent_To_Operation_Executive_Test')
+data.setCell(2, 3, 33560);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Settled_to_Nominee_pending_OM_Conf')
+data.setCell(3, 2, 'script.Settlement_Settled_To_Nominee_PendingAMConfirmation_Test')
+data.setCell(3, 3, 33301);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Settled_To_Nominee')
+data.setCell(4, 2, 'script.Settlement_OPEX_SettledtoNominee_Test')
+data.setCell(4, 3, 33258);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Sent_To_insurer')
+data.setCell(5, 2, 'script.Settlement_Sent_To_Insurer_Test')
+data.setCell(5, 3, 31746);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Received_From_Insurer')
+data.setCell(6, 2, 'script.Settelement_Received_From_Insurer_Test')
+data.setCell(6, 3, 31594);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Claim_Approve')
+data.setCell(7, 2, 'script.Claim_Approve_INOPS_Test')
+data.setCell(7, 3, 28477);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Claim_Approve_INOPSCHK')
+data.setCell(8, 2, 'script.Claim_Approve_INOPS_CHK_Test')
+data.setCell(8, 3, 28442);
+window.suiteTableData['Failed_suite_[Suite]']= { tableData: data, tableDiv: 'times-div-Failed_suite_[Suite]'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-Failed_suite_[Suite]">
+              </div> <!-- times-div-Failed_suite_[Suite] -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Failed_suite_[Suite]" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Failed suite [Suite]</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Failed_suite_[Suite]" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Failed_suite_[Suite]" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">script.Claim_Approve_INOPS_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openApp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">Login</span>
+                <span class="method-start">10713 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Claim_Approve</span>
+                <span class="method-start">17397 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Logout</span>
+                <span class="method-start">45878 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp([TestResult name=Claim_Approve status=FAILURE method=Claim_Approve_INOPS_Test.Claim_Approve()[pri:6,...)</span>
+                <span class="method-start">47805 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">script.Claim_Approve_INOPS_CHK_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openApp</span>
+                <span class="method-start">49104 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">Login</span>
+                <span class="method-start">57017 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Claim_Approve_INOPSCHK</span>
+                <span class="method-start">61737 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Logout</span>
+                <span class="method-start">90181 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp([TestResult name=Claim_Approve_INOPSCHK status=FAILURE method=Claim_Approve_INOPS_CHK_Test.Claim_App...)</span>
+                <span class="method-start">92095 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">script.Settlement_Insurance_Maker_Approve_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openApp</span>
+                <span class="method-start">93378 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">Login</span>
+                <span class="method-start">101278 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Insurance_Maker_Approve</span>
+                <span class="method-start">106091 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Logout</span>
+                <span class="method-start">140167 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp([TestResult name=Insurance_Maker_Approve status=FAILURE method=Settlement_Insurance_Maker_Approve_Te...)</span>
+                <span class="method-start">142022 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">script.Settelement_insurance_Checker_Approve_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openApp</span>
+                <span class="method-start">143493 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">Login</span>
+                <span class="method-start">151717 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Insurance_Checker_Approve</span>
+                <span class="method-start">156552 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Logout</span>
+                <span class="method-start">190143 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp([TestResult name=Insurance_Checker_Approve status=FAILURE method=Settelement_insurance_Checker_Appro...)</span>
+                <span class="method-start">192026 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">script.Settlement_Sent_To_Insurer_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openApp</span>
+                <span class="method-start">193757 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">Login</span>
+                <span class="method-start">201820 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Sent_To_insurer</span>
+                <span class="method-start">206529 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Logout</span>
+                <span class="method-start">238276 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp([TestResult name=Sent_To_insurer status=FAILURE method=Settlement_Sent_To_Insurer_Test.Sent_To_insur...)</span>
+                <span class="method-start">240172 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">script.Settelement_Received_From_Insurer_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openApp</span>
+                <span class="method-start">241641 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">Login</span>
+                <span class="method-start">249815 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Received_From_Insurer</span>
+                <span class="method-start">255238 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Logout</span>
+                <span class="method-start">286834 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp([TestResult name=Received_From_Insurer status=FAILURE method=Settelement_Received_From_Insurer_Test....)</span>
+                <span class="method-start">290764 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">script.Settlement_Sent_To_Operation_Executive_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openApp</span>
+                <span class="method-start">292022 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">Login</span>
+                <span class="method-start">300195 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Sent_To_Insurer</span>
+                <span class="method-start">305309 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Logout</span>
+                <span class="method-start">338871 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp([TestResult name=Sent_To_Insurer status=FAILURE method=Settlement_Sent_To_Operation_Executive_Test.S...)</span>
+                <span class="method-start">340780 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">script.Settlement_OPEX_SettledtoNominee_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openApp</span>
+                <span class="method-start">342042 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">Login</span>
+                <span class="method-start">350588 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Settled_To_Nominee</span>
+                <span class="method-start">353335 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp([TestResult name=Settled_To_Nominee status=FAILURE method=Settlement_OPEX_SettledtoNominee_Test.Sett...)</span>
+                <span class="method-start">386594 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">script.Settlement_Settled_To_Nominee_PendingAMConfirmation_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openApp</span>
+                <span class="method-start">387973 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">Login</span>
+                <span class="method-start">395998 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Settled_to_Nominee_pending_OM_Conf</span>
+                <span class="method-start">398757 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp([TestResult name=Settled_to_Nominee_pending_OM_Conf status=FAILURE method=Settlement_Settled_To_Nomi...)</span>
+                <span class="method-start">432059 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

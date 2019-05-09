@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test" parallel="tests">
+    <classes>
+      <class name="script.Settelement_Received_From_Insurer_Test"/>
+      <class name="script.Settelement_insurance_Checker_Approve_Test"/>
+      <class name="script.Claim_Approve_INOPS_CHK_Test"/>
+      <class name="script.Invalid_Login_Test"/>
+      <class name="script.Invalid_Login_Test1"/>
+      <class name="script.Claim_Approve_OPMAN_Test"/>
+      <class name="script.Insurance_Upload_Test"/>
+      <class name="script.Settlement_Sent_To_Insurer_Test"/>
+      <class name="script.Settlement_Settled_To_Nominee_PendingAMConfirmation_Test"/>
+      <class name="script.Settlement_Insurance_Maker_Approve_Test"/>
+      <class name="script.Settlement_Sent_To_Operation_Executive_Test"/>
+      <class name="script.Settlement_OPEX_SettledtoNominee_Test"/>
+      <class name="script.ValidLogin_Test"/>
+      <class name="script.Claim_Approve_INOPS_Test"/>
+      <class name="script.Claim_Initiate_OPEX_Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="script.Settlement_OPEX_SettledtoNominee_Test">
+        <methods>
+          <include name="Login"/>
+          <include name="openApp"/>
+          <include name="Settled_To_Nominee"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.Settlement_OPEX_SettledtoNominee_Test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)" parallel="tests">
+    <classes>
+      <class name="script.Settlement_Insurance_Maker_Approve_Test">
+        <methods>
+          <include name="openApp"/>
+          <include name="Insurance_Maker_Approve"/>
+          <include name="Logout"/>
+          <include name="Login"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.Settlement_Insurance_Maker_Approve_Test -->
+      <class name="script.Settlement_OPEX_SettledtoNominee_Test">
+        <methods>
+          <include name="Login"/>
+          <include name="openApp"/>
+          <include name="Settled_To_Nominee"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.Settlement_OPEX_SettledtoNominee_Test -->
+      <class name="script.Settlement_Sent_To_Insurer_Test">
+        <methods>
+          <include name="openApp"/>
+          <include name="Logout"/>
+          <include name="Sent_To_insurer"/>
+          <include name="Login"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.Settlement_Sent_To_Insurer_Test -->
+      <class name="script.Settelement_insurance_Checker_Approve_Test">
+        <methods>
+          <include name="openApp"/>
+          <include name="Insurance_Checker_Approve"/>
+          <include name="Logout"/>
+          <include name="Login"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.Settelement_insurance_Checker_Approve_Test -->
+      <class name="script.Claim_Approve_INOPS_Test">
+        <methods>
+          <include name="Logout"/>
+          <include name="openApp"/>
+          <include name="Claim_Approve"/>
+          <include name="Login"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.Claim_Approve_INOPS_Test -->
+      <class name="script.Claim_Approve_INOPS_CHK_Test">
+        <methods>
+          <include name="Login"/>
+          <include name="Logout"/>
+          <include name="openApp"/>
+          <include name="Claim_Approve_INOPSCHK"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.Claim_Approve_INOPS_CHK_Test -->
+      <class name="script.Settelement_Received_From_Insurer_Test">
+        <methods>
+          <include name="openApp"/>
+          <include name="Login"/>
+          <include name="Logout"/>
+          <include name="Received_From_Insurer"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.Settelement_Received_From_Insurer_Test -->
+      <class name="script.Settlement_Sent_To_Operation_Executive_Test">
+        <methods>
+          <include name="Login"/>
+          <include name="openApp"/>
+          <include name="Sent_To_Insurer"/>
+          <include name="Logout"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.Settlement_Sent_To_Operation_Executive_Test -->
+      <class name="script.Settlement_Settled_To_Nominee_PendingAMConfirmation_Test">
+        <methods>
+          <include name="openApp"/>
+          <include name="Login"/>
+          <include name="Settled_to_Nominee_pending_OM_Conf"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.Settlement_Settled_To_Nominee_PendingAMConfirmation_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
